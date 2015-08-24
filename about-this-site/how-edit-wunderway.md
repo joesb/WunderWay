@@ -98,8 +98,7 @@ At the very beginning of your file you need a few lines of text called 'front-ma
     ---
     layout: page
     section: how
-    categories: Admin
-    tags: Expenses, Finance
+    exclude_from_search: false
     title: How To Claim Expenses
     ---
 
@@ -115,20 +114,14 @@ When writing a front-matter section for a new page, here's some options and sugg
   - ***section*** - An index page to a (sub-)section of the site.
     - Section pages have a bullet-point list (organised alphabetically, ascending) of sub-pages automatically added at the bottom.
     - It's probably a good idea (though not required) to name these files index.md and put them inside a (sub-)directory named for the section
-  - ***post*** - More like a blog
-    - ***WunderWay does not use the post layout type***
 - **section**
   - The named section of the site
     - For naming convention, use machine-friendly style i.e. lowercase a-z, 0-9 and - characters only
     - It may be a good idea (though not required) to use the name of the directory of the section as the section name
   - both *section* and *page* layout pages should use the section designation
-- **category/categories**
-  - Categories are mostly useful for 'post' pages, which we don't really use in the WunderWay.
-  - Specified as a YAML list or a space-separated string.
-- **tags**
-  - Similar to categories, one or multiple tags can be added to a post. Also like categories, tags can be specified as a YAML list or a space-separated string.
-  - The WunderWay does not (currently) display tags on pages
 - **title**
   - the page title displayed on the page and when the page is included in any lists
+- **exclude_from_search**
+  - include and set to 'true' to exclude page from search
 
 Some [other front-matter options](http://jekyllrb.com/docs/frontmatter/) are available, but we don't really need to use them in WunderWay.
