@@ -122,6 +122,7 @@ When writing a front-matter section for a new page, here's some options and sugg
 - **title**
   - the page title displayed on the page and when the page is included in any lists
 - **exclude_from_search**
+  - *optional*
   - include and set to 'true' to exclude page from search
 
 Some [other front-matter options](http://jekyllrb.com/docs/frontmatter/) are available, but we don't really need to use them in WunderWay.
