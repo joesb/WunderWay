@@ -98,7 +98,7 @@ At the very beginning of your file you need a few lines of text called 'front-ma
     ---
     layout: page
     section: how
-    exclude_from_search: false
+    exclude_from_search: true
     title: How To Claim Expenses
     ---
 
